@@ -8,7 +8,7 @@ metadata:
     kubernetes.io/ingress.global-static-ip-name: "my-ingress-ip"
 spec:
   rules:
-  - host: your-domain.com
+  - host: kathiresanmurugesan.in
     http:
       paths:
       - path: /
@@ -34,5 +34,5 @@ spec:
               number: 80
   tls:
   - hosts:
-    - your-domain.com
+    - kathiresanmurugesan.in
     secretName: dummy-tls-secret
